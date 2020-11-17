@@ -1,3 +1,4 @@
 module.exports = {
-  Catalog: require("./catalog")  
+  Brands: require("./brands"),
+  Trend: require("./trend")
 };

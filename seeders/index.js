@@ -2,9 +2,10 @@
 const mongoose =            require("mongoose");
 const { g, b, gr, r, y } =  require('../console')
 const db =                  require("../models");
-const {catalogSeed} =         require("../data")
+const {brandData} =         require("../data")
+const {trendData} =         require("../data")
 
-mongoose.connect(process.env.ATLAS_URI || "mongodb://localhost/uncc", {
+mongoose.connect(process.env.ATLAS_METRICS || "mongodb://localhost/metrics", {
   useNewUrlParser: true, 
   useUnifiedTopology: true,
   useCreateIndex: true,
@@ -14,13 +15,26 @@ mongoose.connect(process.env.ATLAS_URI || "mongodb://localhost/uncc", {
 
 const seeder = () => {
   return new Promise((resolve, reject) => {
-    db.Catalog.deleteMany({})
+    db.Brands.deleteMany({})
       .then((result) => {    
-        console.log(`${result.deletedCount} records deleted!`)
+        console.log(`${result.deletedCount} Brand records deleted!`)
       })
-      .then(() => db.Catalog.collection.insertMany(catalogSeed))
+      .then(() => db.Brands.collection.insertMany(brandData))
       .then(data => {
-        console.log(g(`${data.result.n} records inserted!`)); 
+        console.log(g(`${data.result.n} Brand records inserted!`)); 
+        resolve(data)   
+      })
+      .catch(err => {
+        reject(err)       
+      });
+    
+    db.Trend.deleteMany({})
+      .then((result) => {    
+        console.log(`${result.deletedCount} Trend records deleted!`)
+      })
+      .then(() => db.Trend.collection.insertMany(trendData))
+      .then(data => {
+        console.log(g(`${data.result.n} Trend records inserted!`)); 
         resolve(data)   
       })
       .catch(err => {
