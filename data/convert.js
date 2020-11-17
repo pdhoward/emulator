@@ -22,6 +22,14 @@ const sumTrendCategory = {
     'December': 0
     
 }
+
+const sumDecemberBrandMessages = {
+    'Nabisco': 0,
+    'Kraft': 0,
+    'Kelloggs': 0,
+    'P&G': 0,
+    'Coca-Cola': 0
+}
 const brandCategory = {
     'Oranges': 'Nabisco',
     'Apples': 'Kraft',
