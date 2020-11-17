@@ -1,0 +1,202 @@
+[
+  {
+    "group": "All",
+    "category": "August",
+    "measure": 24986
+  },
+  {
+    "group": "All",
+    "category": "September",
+    "measure": 60973
+  },
+  {
+    "group": "All",
+    "category": "October",
+    "measure": 34952
+  },
+  {
+    "group": "All",
+    "category": "November",
+    "measure": 29381
+  },
+  {
+    "group": "All",
+    "category": "December",
+    "measure": 47529
+  },
+  {
+    "group": "City Market",
+    "category": "August",
+    "measure": 5729
+  },
+  {
+    "group": "City Market",
+    "category": "September",
+    "measure": 6782
+  },
+  {
+    "group": "City Market",
+    "category": "October",
+    "measure": 1191
+  },
+  {
+    "group": "City Market",
+    "category": "November",
+    "measure": 6854
+  },
+  {
+    "group": "City Market",
+    "category": "December",
+    "measure": 4277
+  },
+  {
+    "group": "Main Market",
+    "category": "August",
+    "measure": 2581
+  },
+  {
+    "group": "Main Market",
+    "category": "September",
+    "measure": 2886
+  },
+  {
+    "group": "Main Market",
+    "category": "October",
+    "measure": 2429
+  },
+  {
+    "group": "Main Market",
+    "category": "November",
+    "measure": 5091
+  },
+  {
+    "group": "Main Market",
+    "category": "December",
+    "measure": 8650
+  },
+  {
+    "group": "Little Market",
+    "category": "August",
+    "measure": 1183
+  },
+  {
+    "group": "Little Market",
+    "category": "September",
+    "measure": 8040
+  },
+  {
+    "group": "Little Market",
+    "category": "October",
+    "measure": 7176
+  },
+  {
+    "group": "Little Market",
+    "category": "November",
+    "measure": 839
+  },
+  {
+    "group": "Little Market",
+    "category": "December",
+    "measure": 5624
+  },
+  {
+    "group": "Country Market",
+    "category": "August",
+    "measure": 4800
+  },
+  {
+    "group": "Country Market",
+    "category": "September",
+    "measure": 9500
+  },
+  {
+    "group": "Country Market",
+    "category": "October",
+    "measure": 2616
+  },
+  {
+    "group": "Country Market",
+    "category": "November",
+    "measure": 3324
+  },
+  {
+    "group": "Country Market",
+    "category": "December",
+    "measure": 6528
+  },
+  {
+    "group": "Up Market",
+    "category": "August",
+    "measure": 4305
+  },
+  {
+    "group": "Up Market",
+    "category": "September",
+    "measure": 9299
+  },
+  {
+    "group": "Up Market",
+    "category": "October",
+    "measure": 4207
+  },
+  {
+    "group": "Up Market",
+    "category": "November",
+    "measure": 6373
+  },
+  {
+    "group": "Up Market",
+    "category": "December",
+    "measure": 7031
+  },
+  {
+    "group": "New Market",
+    "category": "August",
+    "measure": 3458
+  },
+  {
+    "group": "New Market",
+    "category": "September",
+    "measure": 5516
+  },
+  {
+    "group": "New Market",
+    "category": "October",
+    "measure": 7459
+  },
+  {
+    "group": "New Market",
+    "category": "November",
+    "measure": 1017
+  },
+  {
+    "group": "New Market",
+    "category": "December",
+    "measure": 8292
+  },
+  {
+    "group": "Fresh Market",
+    "category": "August",
+    "measure": 1216
+  },
+  {
+    "group": "Fresh Market",
+    "category": "September",
+    "measure": 8424
+  },
+  {
+    "group": "Fresh Market",
+    "category": "October",
+    "measure": 4024
+  },
+  {
+    "group": "Fresh Market",
+    "category": "November",
+    "measure": 3093
+  },
+  {
+    "group": "Fresh Market",
+    "category": "December",
+    "measure": 4275
+  }
+]

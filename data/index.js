@@ -95,4 +95,4 @@ const trendData = [
   { group: "Steve", category: 2012, measure: 7035 }
 ];
 
-export {venueData, brandData, trendData}
+module.exports = {venueData, brandData, trendData}
