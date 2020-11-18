@@ -1,0 +1,30 @@
+[
+  {
+    "group": "City Market",
+    "measure": "0.20"
+  },
+  {
+    "group": "Main Market",
+    "measure": "0.17"
+  },
+  {
+    "group": "Country Market",
+    "measure": "0.12"
+  },
+  {
+    "group": "Little Market",
+    "measure": "0.12"
+  },
+  {
+    "group": "Up Market",
+    "measure": "0.15"
+  },
+  {
+    "group": "New Market",
+    "measure": "0.17"
+  },
+  {
+    "group": "Fresh Market",
+    "measure": "0.06"
+  }
+]

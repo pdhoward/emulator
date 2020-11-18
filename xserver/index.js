@@ -11,7 +11,7 @@ const { g, b, gr, r, y } =    require('../console');
 
 // Express app
 const app = express();
-const Port = process.env.RUN_PORT || 3000
+const Port = process.env.RUN_PORT || 5000
 
 //////////////////////////////////////////////////////////////////////////
 ////////////////////  Register Middleware       /////////////////////////
@@ -30,10 +30,16 @@ console.log('isDev: ' + isDev);
 const about =               express.Router()
 const header =              express.Router()
 const seed =                express.Router()
+const venue =               express.Router()
+const brand =               express.Router()
+const trend =               express.Router()
 
 require('../routes/about')(about)
 require('../routes/seed')(seed)
 require('../routes/header')(header)
+require('../routes/venue')(venue)
+require('../routes/brand')(brand)
+require('../routes/trend')(trend)
 
 /////////////////////////////////////////////////////////
 /////////////////// API CATALOGUE //////////////////////

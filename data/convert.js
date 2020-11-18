@@ -23,19 +23,23 @@ const sumTrendCategory = {
     
 }
 
-const sumDecemberBrandMessages = {
-    'Nabisco': 0,
-    'Kraft': 0,
-    'Kelloggs': 0,
-    'P&G': 0,
-    'Coca-Cola': 0
+const decemberVenueMeasure = {
+  'City Market': 0,
+  'Main Market': 0,
+  'Country Market': 0,
+  'Little Market': 0,
+  'Up Market': 0,
+  'New Market': 0,
+  'Fresh Market': 0,
+  'All': 0
+  
 }
 const brandCategory = {
     'Oranges': 'Nabisco',
     'Apples': 'Kraft',
     'Grapes': 'Kelloggs',
     'Figs': 'P&G',
-    'Mango': 'Coca-Cola'
+    'Mangos': 'Coca-Cola'
    
 }
 const venueGroups = {
@@ -72,16 +76,39 @@ const writeFile = (savPath, data) => {
       })
     })
   }
-const convertVenue = (savPath, data) => {
+const convertVenue = () => {
     return new Promise(function (resolve, reject) {
-      //
+      let venueArr = []
+      for (const venue in decemberVenueMeasure){
+          let obj = {}
+          let measure = (decemberVenueMeasure[venue] / decemberVenueMeasure['All']).toFixed(2)
+          if (venue != 'All'){
+            obj.group = venue 
+            obj.measure = measure
+            venueArr.push(obj)
+          }         
+      }
+      resolve(venueArr)
     })
   }
-const convertBrand = (savPath, data) => {
+const convertBrand = (data) => {
     return new Promise(function (resolve, reject) {
-      //
-    })
-  }
+      let result = data.map(d => {
+        let n = {} 
+        n.group = venueGroups[d.group]
+        n.category = brandCategory[d.category]
+        n.measure = Math.floor(Math.random() * 1000) + 120
+        if (decemberVenueMeasure[n.group] > n.measure) {
+          decemberVenueMeasure[n.group] = decemberVenueMeasure[n.group] - n.measure
+        } else {
+          n.measure = decemberVenueMeasure[n.group]
+          decemberVenueMeasure[n.group] = 0
+        }              
+        return n
+     })
+    resolve(result)
+  })
+}
 const convertTrend = (data) => {
     return new Promise(function (resolve, reject) {
       let result = data.map(d => {
@@ -95,6 +122,10 @@ const convertTrend = (data) => {
         if (t.group === 'All') {
             t.measure = sumTrendCategory[t.category]
         }
+        if (t.category === 'December') {
+          decemberVenueMeasure[t.group] = t.measure
+        }
+        
         return t
       })
       resolve(result)
@@ -102,9 +133,22 @@ const convertTrend = (data) => {
   }
 
 const process = async () => {
-    const results = await convertTrend(trendData)
+    console.log(`----TREND DATA ----`)
+    let results = await convertTrend(trendData)
     console.log(results)
+    console.log(decemberVenueMeasure)   
     await writeFile('./data/trend.json', results)
+
+    console.log(`----VENUE DATA ----`)
+    results = await convertVenue()
+    console.log(results)      
+    await writeFile('./data/venue.json', results)
+    
+    console.log(`------BRAND DATA -------`)
+    results = await convertBrand(brandData)
+    console.log(results)
+    console.log(decemberVenueMeasure)  
+    await writeFile('./data/brand.json', results)
     // done writing file, can do other things
 }
 

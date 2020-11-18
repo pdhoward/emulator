@@ -1,0 +1,202 @@
+[
+  {
+    "group": "All",
+    "category": "Nabisco",
+    "measure": 753
+  },
+  {
+    "group": "All",
+    "category": "Kraft",
+    "measure": 832
+  },
+  {
+    "group": "All",
+    "category": "Kelloggs",
+    "measure": 1117
+  },
+  {
+    "group": "All",
+    "category": "P&G",
+    "measure": 729
+  },
+  {
+    "group": "All",
+    "category": "Coca-Cola",
+    "measure": 864
+  },
+  {
+    "group": "City Market",
+    "category": "Nabisco",
+    "measure": 204
+  },
+  {
+    "group": "City Market",
+    "category": "Kraft",
+    "measure": 333
+  },
+  {
+    "group": "City Market",
+    "category": "Kelloggs",
+    "measure": 640
+  },
+  {
+    "group": "City Market",
+    "category": "P&G",
+    "measure": 297
+  },
+  {
+    "group": "City Market",
+    "category": "Coca-Cola",
+    "measure": 301
+  },
+  {
+    "group": "Main Market",
+    "category": "Nabisco",
+    "measure": 437
+  },
+  {
+    "group": "Main Market",
+    "category": "Kraft",
+    "measure": 436
+  },
+  {
+    "group": "Main Market",
+    "category": "Kelloggs",
+    "measure": 495
+  },
+  {
+    "group": "Main Market",
+    "category": "P&G",
+    "measure": 818
+  },
+  {
+    "group": "Main Market",
+    "category": "Coca-Cola",
+    "measure": 819
+  },
+  {
+    "group": "Country Market",
+    "category": "Nabisco",
+    "measure": 295
+  },
+  {
+    "group": "Country Market",
+    "category": "Kraft",
+    "measure": 601
+  },
+  {
+    "group": "Country Market",
+    "category": "Kelloggs",
+    "measure": 310
+  },
+  {
+    "group": "Country Market",
+    "category": "P&G",
+    "measure": 581
+  },
+  {
+    "group": "Country Market",
+    "category": "Coca-Cola",
+    "measure": 611
+  },
+  {
+    "group": "Little Market",
+    "category": "Nabisco",
+    "measure": 967
+  },
+  {
+    "group": "Little Market",
+    "category": "Kraft",
+    "measure": 660
+  },
+  {
+    "group": "Little Market",
+    "category": "Kelloggs",
+    "measure": 914
+  },
+  {
+    "group": "Little Market",
+    "category": "P&G",
+    "measure": 133
+  },
+  {
+    "group": "Little Market",
+    "category": "Coca-Cola",
+    "measure": 944
+  },
+  {
+    "group": "Up Market",
+    "category": "Nabisco",
+    "measure": 153
+  },
+  {
+    "group": "Up Market",
+    "category": "Kraft",
+    "measure": 951
+  },
+  {
+    "group": "Up Market",
+    "category": "Kelloggs",
+    "measure": 421
+  },
+  {
+    "group": "Up Market",
+    "category": "P&G",
+    "measure": 820
+  },
+  {
+    "group": "Up Market",
+    "category": "Coca-Cola",
+    "measure": 473
+  },
+  {
+    "group": "New Market",
+    "category": "Nabisco",
+    "measure": 868
+  },
+  {
+    "group": "New Market",
+    "category": "Kraft",
+    "measure": 393
+  },
+  {
+    "group": "New Market",
+    "category": "Kelloggs",
+    "measure": 797
+  },
+  {
+    "group": "New Market",
+    "category": "P&G",
+    "measure": 698
+  },
+  {
+    "group": "New Market",
+    "category": "Coca-Cola",
+    "measure": 987
+  },
+  {
+    "group": "Fresh Market",
+    "category": "Nabisco",
+    "measure": 327
+  },
+  {
+    "group": "Fresh Market",
+    "category": "Kraft",
+    "measure": 918
+  },
+  {
+    "group": "Fresh Market",
+    "category": "Kelloggs",
+    "measure": 726
+  },
+  {
+    "group": "Fresh Market",
+    "category": "P&G",
+    "measure": 292
+  },
+  {
+    "group": "Fresh Market",
+    "category": "Coca-Cola",
+    "measure": 263
+  }
+]
