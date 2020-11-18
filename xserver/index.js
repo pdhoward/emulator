@@ -48,6 +48,9 @@ require('../routes/trend')(trend)
 app.use(header)
 app.get('/about', about)
 app.get('/seed', seed)
+app.get('/api/venue', [venue])
+app.get('/api/brand', [brand])
+app.get('/api/trend', [trend])
 
 // start server
 app.listen(Port, () => console.log(`listening on port ${Port}`))
