@@ -1,30 +1,30 @@
 [
   {
-    "group": "City Market",
+    "group": "City Shop",
     "measure": "0.20"
   },
   {
-    "group": "Main Market",
+    "group": "Main Shop",
     "measure": "0.17"
   },
   {
-    "group": "Country Market",
+    "group": "Country Shop",
     "measure": "0.12"
   },
   {
-    "group": "Little Market",
+    "group": "Little Shop",
     "measure": "0.12"
   },
   {
-    "group": "Up Market",
+    "group": "Up Shop",
     "measure": "0.15"
   },
   {
-    "group": "New Market",
+    "group": "New Shop",
     "measure": "0.17"
   },
   {
-    "group": "Fresh Market",
+    "group": "Fresh Shop",
     "measure": "0.06"
   }
 ]
