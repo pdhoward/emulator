@@ -7,7 +7,7 @@ const venue = (router) => {
   })  
 }
 
-module.exports = seed
+module.exports = venue
  
   
   
