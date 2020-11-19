@@ -8,6 +8,6 @@ let venueSchema = new Schema({
 }, { collection: 'venue' });
 
 
-let Venue = mongoose.model("Venue", trendSchema);
+let Venue = mongoose.model("Venue", venueSchema);
 
 module.exports = Venue;

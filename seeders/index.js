@@ -55,7 +55,7 @@ const seeder = () => {
       });
   })
 }
-
+//seeder()
 module.exports = {
   seeder
 }
