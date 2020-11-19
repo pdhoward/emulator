@@ -1,4 +1,4 @@
-
+require('dotenv').config();
 const mongoose =            require("mongoose");
 const { g, b, gr, r, y } =  require('../console')
 const db =                  require("../models");
@@ -55,7 +55,7 @@ const seeder = () => {
       });
   })
 }
-//seeder()
+seeder()
 module.exports = {
   seeder
 }
